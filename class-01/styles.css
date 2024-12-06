@@ -1,0 +1,175 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    font-size: 16px; /* Base font size for readability */
+}
+
+/* Main CV container */
+.cv-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #eae8ec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Left column styles */
+.left-column {
+    width: 30%;
+    background-color: #022941;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Profile picture */
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #a9b5c2;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Sections in the left column */
+.contact-info, 
+.skills, 
+.edu {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Right column styles */
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-style: oblique;
+    color: crimson;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Section spacing */
+.summary, 
+.experience, 
+.education {
+    margin-bottom: 50px;
+}
+
+/* Section headings */
+h2 {
+    border-bottom: 2px solid #141011;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bolder;
+}
+
+/* Subsection headings */
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #29a1b9;
+}
+
+/* List styles */
+ul {
+    padding-left: 20px;
+}
+
+/* Timeline container */
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    margin: 0;
+    border-left: 2px solid #ccc;
+}
+
+/* Timeline items */
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* Timeline marker (dot) */
+.timeline-marker {
+    position: absolute;
+    left: -30px;
+    
+    width: 16px;
+    height: 16px;
+    background-color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #ccc;
+}
+
+/* Timeline content */
+.timeline-content {
+    margin-left: 20px;
+    /* Light background for clarity */
+    
+    border-radius: 5px;
+    
+}
+
+.timeline-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333; /* Darker color for better contrast */
+}
+
+.timeline-content h3 span {
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+    float: right;
+}
+
+.timeline-content h4 {
+    font-size: 16px;
+    margin: 5px 0 10px;
+    color: #555;
+}
+
+/* List items within timeline */
+.timeline-content ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.timeline-content ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+.Ref{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
